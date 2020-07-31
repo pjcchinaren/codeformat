@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
      * @param i
      */
     private void method1(int i) {
-        Toast.makeText(this, "nihaoheheheheh", Toast.LENGTH_SHORT).show();
+        android.widget.Toast.Toast.makeText(this, "nihaoheheheheh", Toast.LENGTH_SHORT).show();
         android.widget.Toast.makeText(this, "nihao", Toast.LENGTH_SHORT).show();
         android.widget.Toast.makeText(this, "nihao", Toast.LENGTH_SHORT).show();
     }
