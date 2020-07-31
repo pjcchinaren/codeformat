@@ -5,5 +5,5 @@ package cn.pjc.myapplication;
  * Time: 2020/7/31 17:32
  * Description:
  */
-public class A {
+public class B {
 } 
