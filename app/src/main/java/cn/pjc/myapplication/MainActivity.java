@@ -3,6 +3,7 @@ package cn.pjc.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
      *
      * @param i
      */
-    private void method1(ini i) {
-        android.widget.Toast.makeText(this, "nihao", Toast.LENGTH_SHORT).show();
+    private void method1(int i) {
+        android.widget.Toast.makeText(this,"nihao",Toast.LENGTH_SHORT).show();
         android.widget.Toast.makeText(this, "nihao", Toast.LENGTH_SHORT).show();
         android.widget.Toast.makeText(this, "nihao", Toast.LENGTH_SHORT).show();
     }
