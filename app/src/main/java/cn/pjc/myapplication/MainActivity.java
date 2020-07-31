@@ -19,9 +19,8 @@ public class MainActivity extends AppCompatActivity {
      * @param i
      */
     private void method1(int i) {
-        android.widget.Toast.makeText(this,"niha", Toast.LENGTH_SHORT)
-                .show();
-        android.widget.Toast.makeText(this,"nihao", Toast.LENGTH_SHORT).show();
-        android.widget.Toast.makeText(this,"nihao", Toast.LENGTH_SHORT).show();
+        android.widget.Toast.makeText(this, "niha", Toast.LENGTH_SHORT).show();
+        android.widget.Toast.makeText(this, "nihao", Toast.LENGTH_SHORT).show();
+        android.widget.Toast.makeText(this, "nihao", Toast.LENGTH_SHORT).show();
     }
 }
