@@ -1,7 +1,10 @@
 package cn.pjc.myapplication;
 
+import android.app.ActivityManager;
+import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,10 +16,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        findViewById(R.id.tv);
+        findViewById(R.id.tv).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ActivityManager activityManager = (ActivityManager) MainActivity.this.getSystemService(Context.ACTIVITY_SERVICE);
+                int memoryClass = activityManager.getMemoryClass();
+            }
+        });
 
     }
 
+    private void m(){
+        //1
+        //2
+    }
     /**
      * @param i
      */
